@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Ashutosh Kendurkar",
+        "address": "Kothrud, Pune",
+        "phone": 9822897166,
+        "email": "ashutosh.kendurkar@gmail.com",
+        "notes": "test notes"
+    },
+    {
+        "name": "Tony Stark",
+        "address": "Malibu, California",
+        "phone": 12345678,
+        "email": "tony.stark@gmail.com",
+        "notes": "I am Iron Man"
+    }
+]
