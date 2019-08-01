@@ -1,23 +1,25 @@
 import React from 'react';
 import { withActions } from './hoc/withActions';
 
-const textbox = ({ name, value, handleInputChange, classname, placeholder, isRequired, isValid, validationMessage,validationExpression }) => {
+const textArea = ({ name, value, handleInputChange, classname, placeholder, isRequired, isValid, validationMessage, rows, columns,validationExpression }) => {
 
     return (
         <React.Fragment>
-            <input type="text"
+            <textarea
                 value={value}
                 onChange={handleInputChange}
                 className={classname} name={name}
                 id={name} placeholder={placeholder}
+                rows={rows}
+                columns={columns}
                 validationexpression={validationExpression}
-                iseequired={isRequired.toString()}
-            />            
+                isrequired={isRequired.toString()}
+            />
         </React.Fragment>
     )
 }
 
-textbox.defaultProps={
+textArea.defaultProps={
     name:'test',
     value:'', 
     handleInputChange:() => {}, 
@@ -26,7 +28,9 @@ textbox.defaultProps={
     isRequired:false, 
     isValid:true, 
     validationMessage:'', 
+    rows:10, 
+    columns:10,
     validationExpression:'' 
 }
 
-export default withActions(textbox);
+export default withActions(textArea);

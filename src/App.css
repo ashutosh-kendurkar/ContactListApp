@@ -48,13 +48,20 @@
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-.modal-content {
+.c-modal1{
+  padding-right: 25%;
+  padding-left: 25%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.modal-content1{
+  display: block;
   background-color: #fefefe;
-    margin: 10% auto;
+    margin: 3% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 50%;
-    height: 500px;
+    /* width: 60%;
+    height: 490px; */
 }
 .__title {
   position: relative;
@@ -89,9 +96,12 @@
   cursor: pointer;
 }
 .add-contact-button{
-  display: inline-block;
     float: right;
 }
 .button-modal{
-  margin-right: 223px;
+  /* //margin-right: 223px; */
+}
+
+.form-group .required .control-label:after {
+  content:"*";color:red;
 }
