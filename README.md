@@ -4,9 +4,9 @@ This application displays list of contacts and also allows to add new contacts.
 
 # Folder Structure
 
-|   .gitignore.
-|   package-lock.json
-�   package.json
+| gitignore
+| package-lock.json
+| package.json
 �   README.md
 �   tree.txt
 �   
