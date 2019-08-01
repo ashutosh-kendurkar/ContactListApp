@@ -4,7 +4,7 @@ This application displays list of contacts and also allows to add new contacts.
 
 # Folder Structure
 
-| gitignore
+```| gitignore
 | package-lock.json
 | package.json
 �   README.md
@@ -44,7 +44,7 @@ This application displays list of contacts and also allows to add new contacts.
     �       contacts.js
     �       
     ����utilities
-            modal.js
+            modal.js```
             
             
 
