@@ -5,47 +5,47 @@ This application displays list of contacts and also allows to add new contacts.
 # Folder Structure
 
 ```|  .gitignore
-```|  package-lock.json
-```|  package.json
-```|  README.md
-```|  tree.txt
-```|  
-```____public
-```|      favicon.ico
-```|      index.html
-```|      manifest.json
-```|      
-```____src
-    ```|  App.css
-    ```|  App.js
-    ```|  App.test.js
-    ```|  data.json
-    ```|  index.css
-    ```|  index.js
-    ```|  logo.svg
-    ```|  model.json
-    ```|  serviceWorker.js
-    ```|  
-```    ____components
-    ```|  ```|  addContact.js
-    ```|  ```|  contactList.js
-    ```|  ```|  
-    ```|  ____common
-    ```|      ```|  textArea.js
-    ```|      ```|  textbox.js
-    ```|      ```|  
-    ```|      ____hoc
-    ```|              withActions.js
-    ```|              
-```    ____config
-    ```|      validations.json
-    ```|      
-```    ____container
-    ```|      contacts.js
-    ```|      
-```    ____utilities
+|  package-lock.json
+|  package.json
+|  README.md
+|  tree.txt
+|  
+____public
+|      favicon.ico
+|      index.html
+|      manifest.json
+|      
+____src
+    |  App.css
+    |  App.js
+    |  App.test.js
+    |  data.json
+    |  index.css
+    |  index.js
+    |  logo.svg
+    |  model.json
+    |  serviceWorker.js
+    |  
+    ____components
+    |  |  addContact.js
+    |  |  contactList.js
+    |  |  
+    |  ____common
+    |      |  textArea.js
+    |      |  textbox.js
+    |      |  
+    |      ____hoc
+    |              withActions.js
+    |              
+    ____config
+    |      validations.json
+    |      
+    ____container
+    |      contacts.js
+    |      
+    ____utilities
             modal.js
-            
+```            
             
 
 ## Getting Started
