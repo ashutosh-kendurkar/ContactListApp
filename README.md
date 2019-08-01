@@ -28,6 +28,9 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `npm run build`
 
+## Running tests
+
+:grimacing: didnt get enough time :stuck_out_tongue_winking_eye: but do come back later to see some :thumbsup:
 
 ## Built With
 
